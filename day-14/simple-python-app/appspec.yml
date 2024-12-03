@@ -3,10 +3,10 @@ os: linux
 
 hooks:
   ApplicationStop:
-    - location: day-14/simple-python-app/stop_container.sh
+    - location: scripts/stop_container.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: day-14/simple-python-app/start_container.sh
+    - location: scripts/start_container.sh
       timeout: 300
       runas: root
