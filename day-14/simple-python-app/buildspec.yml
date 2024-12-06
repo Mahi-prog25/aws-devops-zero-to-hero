@@ -29,4 +29,3 @@ artifacts:
     - '**/*'
   base-directory: ../simple-python-app
 
-
